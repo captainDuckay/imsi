@@ -8,15 +8,13 @@ use Exception;
 
 /**
  * Class IMSI
- * @author  Nicki Bo Otte <nbo@evercall.dk>
- * @package Structures\Utilities
+ * @package captainDuckay
  */
 class IMSI {
 
 	/**
 	 * FYI This has no validation whatsoever
 	 * @return string
-	 * @author Nicki Bo Otte <nbo@evercall.dk>
 	 */
 	public static function generateRandom() {
 
