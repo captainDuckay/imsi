@@ -1,0 +1,23 @@
+{
+  "name": "captain_duckay/imsi",
+  "description": "library that handles imsi code",
+  "minimum-stability": "stable",
+  "license": "GPL-2.0-only",
+  "authors": [
+    {
+      "name": "Nicki Bo Otte",
+      "email": "duckay@live.com"
+    }
+  ],
+  "require": {
+    "php": "^7.4"
+  },
+  "autoload": {
+    "psr-0": {
+      "captainDuckay\\": "src"
+    },
+    "psr-4": {
+      "captainDuckay\\": "src"
+    }
+  }
+}
